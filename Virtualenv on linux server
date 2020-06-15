@@ -1,0 +1,10 @@
+1. Check your python versions: which python or (which python3). 
+2. If you already have python3.5+ as interpreter, you can easily set up the virtual environment by: python3 -m venv ./path_to_myenv
+   (check out here: https://docs.python.org/3/library/venv.html)
+3. If not, please install python3.5+ firstly: e.g. sudo apt-get install python3.7
+4. Activate the virtual environment: source activate (please be aware of the pwd)
+5. Install packages within a virtual environment without affecting the host system setup:
+   pip install --upgrade pip          #upgrade pip to the updates version
+   pip list                           #list all installed packages
+   pip install --upgrade tensorflow   #install tensorflow, you can use this command to install other packages
+6. Quit the virtual environment: deactivate
