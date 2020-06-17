@@ -1,0 +1,12 @@
+I have python3.6 on my Linux system, now I need python3.7. I did like following steps:
+1. wget https://www.python.org/ftp/python/3.7.5/Python-3.7.5.tgz
+2. tar zxfv Python-3.7.5.tgz
+3. cd Python-3.7.5/
+4. ./configure --prefix=$HOME/python/python3.7
+5. make altinstall
+6. export PATH=$HOME/python/python3.7/bin:$PATH (you can add this path to ~/.bashrc)
+7. python3.7
+   Python 3.7.5 (default, Jun 17 2020, 20:09:01)
+8. python3
+   Python 3.6.8 (default, Apr  2 2020, 13:34:55)
+   
